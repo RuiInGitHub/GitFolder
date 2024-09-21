@@ -8,6 +8,10 @@
 # Ignorar pastas binárias e de build
 bin/
 obj/
+echo ".vs/" >> .gitignore
+echo "bin/" >> .gitignore
+echo "obj/" >> .gitignore
+git add .gitignore
 
 # Ignorar outras pastas desnecessárias
 *.exe
