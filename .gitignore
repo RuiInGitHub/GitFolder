@@ -1,0 +1,15 @@
+# Ignorar pastas do Visual Studio
+.vs/
+*.user
+*.suo
+*.cache
+*.log
+
+# Ignorar pastas binárias e de build
+bin/
+obj/
+
+# Ignorar outras pastas desnecessárias
+*.exe
+*.dll
+*.pdb
